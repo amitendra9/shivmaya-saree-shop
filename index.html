@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShivMaya Saree Shop - Traditional and modern sarees for every occasion. शिवमाया साड़ी दुकान - हर अवसर के लिए पारंपरिक और आधुनिक साड़ियाँ।" />
+  <title>ShivMaya Saree Shop | शिवमाया साड़ी दुकान</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="brand">
+        <img class="brand-mark" src="images/logo.png" alt="ShivMaya Saree Shop logo" />
+        <span>
+          <strong>ShivMaya Saree Shop</strong>
+          <small data-en="शिवमाया साड़ी दुकान" data-hi="शिवमाया साड़ी दुकान"></small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-en="Home" data-hi="होम">Home</a></li>
+        <li><a href="#about" data-en="About" data-hi="हमारे बारे में">About</a></li>
+        <li><a href="#products" data-en="Products" data-hi="उत्पाद">Products</a></li>
+        <li><a href="#range" data-en="Range" data-hi="रेंज">Range</a></li>
+        <li><a href="#gallery" data-en="Gallery" data-hi="गैलरी">Gallery</a></li>
+        <li><a href="#offer" data-en="Offers" data-hi="ऑफर">Offers</a></li>
+        <li><a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a></li>
+        <li>
+          <button class="lang-toggle" id="langToggle">
+            <span class="lang-label" id="langLabel">हिंदी</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="hero-eyebrow" data-en="Since 2026 • Local Market, Auraiya"
+           data-hi="2026 से • लोकल मार्केट, औरैया">Since 2026 • Local Market, Auraiya</p>
+        <h1>
+          <span data-en="ShivMaya" data-hi="शिवमाया">ShivMaya</span>
+          <span class="hero-sub" data-en="Saree Shop" data-hi="साड़ी दुकान">Saree Shop</span>
+        </h1>
+        <p class="hero-tagline" data-en="Traditional &amp; modern sarees for every occasion — weddings, festivals, and everyday grace."
+           data-hi="पारंपरिक और आधुनिक साड़ियाँ हर अवसर के लिए — शादी, त्योहार और रोज़मर्रा की सुंदरता।">
+          Every woman's celebration deserves the perfect saree.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary" data-en="Browse Products" data-hi="उत्पाद देखें">Browse Products</a>
+          <a href="#contact" class="btn btn-outline" data-en="Visit the Shop" data-hi="दुकान पर आएं">Visit the Shop</a>
+        </div>
+      </div>
+      <div class="hero-pattern" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="About Our Shop" data-hi="हमारी दुकान के बारे में">About Our Shop</h2>
+          <p class="section-sub" data-en="A neighbourhood saree shop with a personal touch."
+             data-hi="पड़ोस की एक साड़ी दुकान, व्यक्तिगत देखभाल के साथ।">Trusted in our local market.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <span class="about-emoji">🧵</span>
+            <h3 data-en="Wide Collection" data-hi="बड़ा संग्रह">Wide Collection</h3>
+            <p data-en="Cotton, silk, designer and everyday sarees for every budget."
+               data-hi="कॉटन, सिल्क, डिज़ाइनर और रोज़मर्रा की साड़ियाँ हर बजट के लिए।">Sarees for every taste and pocket.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-emoji">🤝</span>
+            <h3 data-en="Honest Service" data-hi="ईमानदार सेवा">Honest Service</h3>
+            <p data-en="Fair prices and friendly advice from people who know sarees."
+               data-hi="उचित दाम और दोस्ताना सलाह, जो साड़ियों को अच्छी तरह जानते हैं।">Fair price, friendly advice.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-emoji">👰</span>
+            <h3 data-en="For Every Occasion" data-hi="हर अवसर के लिए">For Every Occasion</h3>
+            <p data-en="Bridal wear, festival outfits and gifts — all under one roof."
+               data-hi="ब्राइडल वियर, त्योहार के कपड़े और गिफ्ट — सब एक ही जगह।">Wedding to festival, all here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products section" id="products">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Our Collection" data-hi="हमारा संग्रह">Our Collection</h2>
+          <p class="section-sub" data-en="Categories we keep in the shop."
+             data-hi="दुकान में उपलब्ध श्रेणियाँ।">Something for everyone.</p>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <img class="product-img" src="images/saree-01.jpg" alt="Designer saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Designer Sarees" data-hi="डिज़ाइनर साड़ियाँ">Designer Sarees</h3>
+              <p data-en="Fancy and trending styles for parties and functions."
+                 data-hi="पार्टियों और फंक्शन के लिए फैंसी और ट्रेंडिंग स्टाइल।">For parties &amp; functions.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/saree-02.jpg" alt="Silk saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Silk Sarees" data-hi="सिल्क साड़ियाँ">Silk Sarees</h3>
+              <p data-en="Rich silk for weddings and special ceremonies."
+                 data-hi="शादी और खास समारोहों के लिए शानदार सिल्क।">Rich silk for big days.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/saree-03.jpg" alt="Cotton saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Cotton Sarees" data-hi="कॉटन साड़ियाँ">Cotton Sarees</h3>
+              <p data-en="Light, breathable and perfect for daily wear."
+                 data-hi="हल्की, आरामदायक और रोज़ पहनने के लिए बेहतरीन।">Comfort for everyday.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/saree-04.jpg" alt="Bridal saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Bridal &amp; Festive" data-hi="ब्राइडल और त्योहार">Bridal &amp; Festive</h3>
+              <p data-en="Special pieces for weddings and festival shopping."
+                 data-hi="शादी और त्योहारों की खरीदारी के लिए खास पीस।">The special occasion range.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/saree-05.jpg" alt="Banarasi saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Banarasi Sarees" data-hi="बनारसी साड़ियाँ">Banarasi Sarees</h3>
+              <p data-en="Classic handwoven Banarasi elegance."
+                 data-hi="क्लासिक हाथ से बुनी बनारसी शान।">Timeless handwoven beauty.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/saree-06.jpg" alt="Daily wear saree" loading="lazy" />
+            <div class="product-body">
+              <h3 data-en="Daily Wear" data-hi="रोज़मर्रा की साड़ियाँ">Daily Wear</h3>
+              <p data-en="Comfortable sarees for home, office and market."
+                 data-hi="घर, ऑफिस और बाज़ार के लिए आरामदायक साड़ियाँ।">Easy, comfortable all-day sarees.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RANGE -->
+    <section class="range section" id="range">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Our Range" data-hi="हमारी रेंज">Our Range</h2>
+          <p class="section-sub" data-en="What we keep in the shop — sarees and more."
+             data-hi="दुकान में क्या उपलब्ध है — साड़ियाँ और बहुत कुछ।">Everything under one roof.</p>
+        </div>
+
+        <div class="cat-grid" id="catGrid">
+          <div class="cat-card">
+            <span class="cat-emoji">🥻</span>
+            <h3 data-en="Saree" data-hi="साड़ी">Saree</h3>
+            <p data-en="21 popular collections in stock" data-hi="21 लोकप्रिय संग्रह उपलब्ध">21 collections</p>
+          </div>
+          <div class="cat-card">
+            <img class="cat-emoji-img" src="images/petticot.png" alt="Petticoat" />
+            <h3 data-en="Petticoat" data-hi="पेटीकोट">Petticoat</h3>
+            <p data-en="All sizes available" data-hi="सभी साइज़ उपलब्ध">All sizes</p>
+          </div>
+          <div class="cat-card">
+            <span class="cat-emoji">🧵</span>
+            <h3 data-en="Astar (Lining)" data-hi="अस्तर">Astar (Lining)</h3>
+            <p data-en="Quality lining cloth" data-hi="अच्छी क्वालिटी का अस्तर">Quality lining</p>
+          </div>
+          <div class="cat-card">
+            <span class="cat-emoji">👗</span>
+            <h3 data-en="Maxi" data-hi="मैक्सी">Maxi</h3>
+            <p data-en="Trendy maxi dresses" data-hi="ट्रेंडी मैक्सी ड्रेस">Trendy maxis</p>
+          </div>
+          <div class="cat-card">
+            <span class="cat-emoji">👚</span>
+            <h3 data-en="Blouse" data-hi="ब्लाउज़">Blouse</h3>
+            <p data-en="Readymade &amp; by order" data-hi="रेडीमेड और आर्डर पर">Made to order</p>
+          </div>
+          <div class="cat-card">
+            <span class="cat-emoji">🛍️</span>
+            <h3 data-en="Others" data-hi="अन्य">Others</h3>
+            <p data-en="More ladies' wear items" data-hi="महिलाओं के और कपड़े">More items</p>
+          </div>
+        </div>
+
+        <div class="range-catalogue">
+          <h3 class="range-title" data-en="Popular Saree Collections" data-hi="लोकप्रिय साड़ी संग्रह">Popular Saree Collections</h3>
+          <div class="search-wrap">
+            <input type="search" id="rangeSearch" class="search-input"
+                   data-en-placeholder="Search a saree collection…"
+                   data-hi-placeholder="साड़ी का संग्रह खोजें…"
+                   placeholder="Search a saree collection…" aria-label="Search saree collections" />
+          </div>
+          <p class="range-count" id="rangeCount" data-en="21 collections found" data-hi="21 संग्रह मिले">21 collections found</p>
+          <ul class="range-list" id="rangeList">
+            <li>Saree Vrindavan VSCP</li>
+            <li>Saree Masak Kali Mahaveer LD</li>
+            <li>Saree Mamrita RM</li>
+            <li>Saree Komal RVLD</li>
+            <li>Saree Bhagwan Vrundavan</li>
+            <li>Saree Brasso Touch Aradhyacs</li>
+            <li>Saree Malkin RVCS</li>
+            <li>Saree Mala Ghevar RVLD</li>
+            <li>Saree Tadqeer Ka Sikdar RVCS</li>
+            <li>Saree Geetanjali RVLD</li>
+            <li>Saree Poonam RVLD</li>
+            <li>Saree Navratri OM</li>
+            <li>Saree Laxmi OM</li>
+            <li>Saree Pistol Royshar</li>
+            <li>Saree Viral Nagin Online Print</li>
+            <li>Saree Gulab Jal Print</li>
+            <li>Saree Lemon Mirchi BT</li>
+            <li>Saree Jamun Print</li>
+            <li>Saree Vande Bharat VNCS</li>
+            <li>Saree Supriya SC</li>
+            <li>Saree Radhika Lal</li>
+          </ul>
+          <p class="range-empty" id="rangeEmpty" data-en="No collection matches your search."
+             data-hi="आपकी खोज से मेल खाता कोई संग्रह नहीं मिला।" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Gallery" data-hi="गैलरी">Gallery</h2>
+          <p class="section-sub" data-en="A glimpse of our shop and sarees."
+             data-hi="हमारी दुकान और साड़ियों की एक झलक।">See what we have.</p>
+        </div>
+        <div class="gallery-grid">
+          <img class="gallery-item large" src="images/saree-07.jpg" alt="ShivMaya saree collection" loading="lazy" />
+          <img class="gallery-item" src="images/saree-08.jpg" alt="Saree" loading="lazy" />
+          <img class="gallery-item" src="images/saree-09.jpg" alt="Saree" loading="lazy" />
+          <img class="gallery-item" src="images/saree-10.jpg" alt="Saree" loading="lazy" />
+          <img class="gallery-item" src="images/saree-11.jpg" alt="Saree" loading="lazy" />
+        </div>
+        <p class="gallery-note" data-en="More photos of the shop and latest arrivals coming soon. Visit us to see the full range!"
+           data-hi="दुकान और नई आई साड़ियों की और फोटो जल्द आएंगी। पूरा संग्रह देखने दुकान पर ज़रूर आएं!">More photos coming soon.</p>
+      </div>
+    </section>
+
+    <!-- FESTIVE OFFERS & EVENTS -->
+    <section class="offer section" id="offer">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Festive Offers &amp; Events" data-hi="त्योहार ऑफर और इवेंट">Festive Offers &amp; Events</h2>
+          <p class="section-sub" data-en="Seasonal discounts and special collections for every festival."
+             data-hi="हर त्योहार के लिए सीज़नल ऑफर और खास संग्रह।">Celebrate every festival with us.</p>
+        </div>
+
+        <div class="offer-banner">
+          <h3>
+            <span data-en="🎉 Festive Season is Here!" data-hi="🎉 त्योहार का सीज़न आ गया!">🎉 Festive Season is Here!</span>
+          </h3>
+          <p data-en="Special discounts and new collections for this season — details coming soon, ask us on WhatsApp."
+             data-hi="इस सीज़न के लिए खास ऑफर और नई डिज़ाइन — जल्द ही विवरण, व्हाट्सएप पर पूछें।">
+            Special offers &amp; new arrivals every season.
+          </p>
+          <a href="https://wa.me/918859012868" target="_blank" rel="noopener" class="btn btn-whatsapp">
+            💬 <span data-en="Ask about offers" data-hi="ऑफर के बारे में पूछें">Ask about offers</span>
+          </a>
+        </div>
+
+        <div class="offer-grid">
+          <div class="offer-card">
+            <span class="offer-emoji">🪔</span>
+            <h3 data-en="Diwali Special" data-hi="दिवाली स्पेशल">Diwali Special</h3>
+            <p data-en="Gift-worthy sarees and festive picks."
+               data-hi="गिफ्ट के लिए साड़ियाँ और त्योहारी चुनाव।">Gifts &amp; festive sarees.</p>
+            <a class="offer-wa" href="https://wa.me/918859012868" target="_blank" rel="noopener" data-en="Enquire →" data-hi="पूछें →">Enquire →</a>
+          </div>
+          <div class="offer-card">
+            <span class="offer-emoji">🪷</span>
+            <h3 data-en="Navratri Collection" data-hi="नवरात्रि कलेक्शन">Navratri Collection</h3>
+            <p data-en="Bright festive colours for garba and pooja."
+               data-hi="गरबा और पूजा के लिए चटक रंग।">Bright colours for garba nights.</p>
+            <a class="offer-wa" href="https://wa.me/918859012868" target="_blank" rel="noopener" data-en="Enquire →" data-hi="पूछें →">Enquire →</a>
+          </div>
+          <div class="offer-card">
+            <span class="offer-emoji">👑</span>
+            <h3 data-en="Karva Chauth Picks" data-hi="करवा चौथ पिक्स">Karva Chauth Picks</h3>
+            <p data-en="Elegant pieces for the special day."
+               data-hi="खास दिन के लिए शानदार पीस।">Shadi-day elegance.</p>
+            <a class="offer-wa" href="https://wa.me/918859012868" target="_blank" rel="noopener" data-en="Enquire →" data-hi="पूछें →">Enquire →</a>
+          </div>
+          <div class="offer-card">
+            <span class="offer-emoji">💍</span>
+            <h3 data-en="Wedding Season" data-hi="शादी का सीज़न">Wedding Season</h3>
+            <p data-en="Bridal sarees and family outfits."
+               data-hi="ब्राइडल साड़ियाँ और परिवार के कपड़े।">Bridal wear for the big day.</p>
+            <a class="offer-wa" href="https://wa.me/918859012868" target="_blank" rel="noopener" data-en="Enquire →" data-hi="पूछें →">Enquire →</a>
+          </div>
+        </div>
+
+        <div class="shop-strip">
+          <img src="images/saree-08.jpg" alt="Festive sarees" loading="lazy" />
+          <img src="images/saree-09.jpg" alt="Festive sarees" loading="lazy" />
+          <img src="images/saree-10.jpg" alt="Festive sarees" loading="lazy" />
+          <img src="images/saree-11.jpg" alt="Festive sarees" loading="lazy" />
+          <p class="shop-strip-note" data-en="Shop &amp; latest-arrival photos coming soon — visit us to see the new festive collection!"
+             data-hi="दुकान और नई आई साड़ियों की फोटो जल्द आएँगी — नया त्योहारी कलेक्शन देखने हमारे पास ज़रूर आएं!">More photos coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Visit Us" data-hi="हमसे मिलें">Visit Us</h2>
+          <p class="section-sub" data-en="Come by the shop or reach us on phone / WhatsApp."
+             data-hi="दुकान पर आएं या फोन / व्हाट्सएप पर संपर्क करें।">We'd love to help you choose.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <span class="contact-emoji">📍</span>
+            <h3 data-en="Address" data-hi="पता">Address</h3>
+            <p data-en="Phaphund, Tiraha,<br />Dibiyapur – Auraiya Rd, Barmupur,<br />Auraiya, Uttar Pradesh 206122"
+               data-hi="फफूँद, तिराहा,<br />दिबियापुर – औरैया रोड, बरमपुर,<br />औरैया, उत्तर प्रदेश 206122">Phaphund, Tiraha, Dibiyapur – Auraiya Rd, Barmupur, Auraiya, UP 206122</p>
+          </div>
+          <div class="contact-card">
+            <span class="contact-emoji">🕘</span>
+            <h3 data-en="Opening Hours" data-hi="समय">Opening Hours</h3>
+            <p data-en="Monday – Saturday: 9:00 AM – 8:00 PM<br />Sunday: 11:00 AM – 8:00 PM"
+               data-hi="सोमवार – शनिवार: सुबह 9:00 – रात 8:00<br />रविवार: सुबह 11:00 – रात 8:00">Mon–Sat: 9 AM – 8 PM, Sun: 11 AM – 8 PM</p>
+          </div>
+          <div class="contact-card">
+            <span class="contact-emoji">📞</span>
+            <h3 data-en="Phone &amp; WhatsApp" data-hi="फोन और व्हाट्सएप">Phone &amp; WhatsApp</h3>
+            <p class="contact-phones">
+              <a href="tel:+918859012868">+91 88590 12868</a>
+              <a href="https://wa.me/918859012868" target="_blank" rel="noopener" class="wa-link">WhatsApp Chat</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="map-wrap">
+          <div class="map-title">
+            <span class="map-pin">📍</span>
+            <strong data-en="ShivMaya Saree Shop — Auraiya"
+                    data-hi="शिवमाया साड़ी दुकान — औरैया">ShivMaya Saree Shop — Auraiya</strong>
+          </div>
+          <iframe
+            src="https://maps.google.com/maps?q=Shiv+Maya+Saree+Shop,+Auraiya&z=17&output=embed"
+            width="100%" height="360" style="border:0;"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="ShivMaya Saree Shop location map"></iframe>
+          <a class="map-link" href="https://share.google/bHFiFUJelZBDTp83j" target="_blank" rel="noopener"
+             data-en="Open full map ↗" data-hi="पूरा नक्शा खोलें ↗">Open full map ↗</a>
+        </div>
+
+        <div class="contact-cta">
+          <div class="contact-cta-inner">
+            <p data-en="Have a question? Message us on WhatsApp — we usually reply quickly!"
+               data-hi="कोई सवाल? व्हाट्सएप पर संदेश भेजें — हम जल्दी जवाब देते हैं!">Quickest way to reach us.</p>
+            <a href="https://wa.me/918859012868" target="_blank" rel="noopener" class="btn btn-whatsapp">
+              💬 <span data-en="Chat on WhatsApp" data-hi="व्हाट्सएप पर चैट करें">Chat on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <span data-en="© 2026 ShivMaya Saree Shop. All rights reserved."
+             data-hi="© 2026 शिवमाया साड़ी दुकान। सर्वाधिकार सुरक्षित।">© 2026 ShivMaya Saree Shop.</span>
+    </p>
+    <p class="footer-motto" data-en="Dress every occasion with grace." data-hi="हर अवसर को शालीनता से सजाएं।">🎗️ Dress every occasion with grace.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
